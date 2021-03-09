@@ -67,7 +67,7 @@ const App = () => {
               {weather.snow ? weather.snow["1h"] ? `Snow: ${weather.snow["1h"]} mm/h` : null : null}
             </div>
             <div>
-              {weather.rain ? weather.rain["1h"] ? `Rain: ${weather.rain} mm/h` : null : null}
+              {weather.rain ? weather.rain["1h"] ? `Rain: ${weather.rain["1h"]} mm/h` : null : null}
             </div>
           </div>
           <form style={{ margin: 20, alignItems: "center", display: "flex", flexDirection: "column" }} onSubmit={onSubmit} >
