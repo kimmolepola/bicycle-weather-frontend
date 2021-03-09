@@ -1,9 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/a9a19a57-8d5d-4b3e-bdc8-452d9e87cb6c/resourceGroups/worksamples-rg/providers/Microsoft.Web/sites/kimmolepola-bicycle-weather-frontend",
-    "appService.deploySubpath": "./build",
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}",
-        ".env{,/**}"
-    ]
-}
